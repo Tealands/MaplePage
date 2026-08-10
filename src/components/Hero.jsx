@@ -39,6 +39,19 @@ export default function Hero({ onNavigate }) {
               私について
             </button>
           </div>
+          <div className="mt-8 flex justify-center md:justify-start">
+            <a
+              href="https://x.com/Sumitu_3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-2.5 bg-stone-900 hover:bg-stone-700 text-white rounded-full font-medium text-sm tracking-wide transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
+            >
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+              X (Twitter)
+            </a>
+          </div>
         </div>
 
         {/* Decorative image cluster */}
